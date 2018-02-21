@@ -7,3 +7,4 @@ Creating a new branch is quick and simple.
 merge test.
 it is dev.
 test stash.
+test stash dev.

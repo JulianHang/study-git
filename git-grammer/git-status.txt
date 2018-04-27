@@ -1,0 +1,27 @@
+git status -显示工作区的状态
+
+--斜杠前后表示可选择任何一种输入方式
+git status -s/--short
+以简短的方式显示工作区的状态（A:添加 D:删除 ??:未添加）
+
+git status -b/--branch
+显示分支和跟踪信息
+
+git status --show-stash
+显示stash的条目，其实就是将暂存区隐藏起来的条目
+
+git status --porcelain
+跟--short的效果一样
+
+git status --long
+以长的格式显示工作区的状态，这是个默认的输出格式
+
+git status --verbose
+显示工作区的详细状态
+
+git status -uno/--untracked-files=no
+显示工作区的状态，不包括未跟踪的内容
+
+git status --ignored=traditional
+显示工作区的状态，同时显示被忽略的文件
+

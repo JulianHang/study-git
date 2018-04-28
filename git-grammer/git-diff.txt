@@ -9,3 +9,21 @@ git diff HEDA/[commit]
 
 git diff [commit] [commit]
 比较两个版本库之间的文件差异
+
+git diff [commit] [commit] > patch
+比较两个版本库之间的文件差异并生成补丁
+
+git diff --name-only
+只显示变化的文件名
+
+git diff --name-status
+只显示变化的文件名与状态
+
+git diff --color=always/never/auto
+用颜色上的不同来表示差异
+
+git diff --diff0-filter=A/C/D/M/R
+排除掉某些内容来显示想要查看的差异
+
+
+

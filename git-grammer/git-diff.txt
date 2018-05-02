@@ -22,7 +22,7 @@ git diff --name-status
 git diff --color=always/never/auto
 用颜色上的不同来表示差异
 
-git diff --diff0-filter=A/C/D/M/R
+git diff --diff-filter=A/C/D/M/R
 排除掉某些内容来显示想要查看的差异
 
 

@@ -35,7 +35,7 @@ git add --refresh 文件/文件夹
 git add --ignore-errors 文件/文件夹
 某些文件因索引错误而无法添加，请不要中止操作，而是继续添加其他文件
 
-git add --ignore-missing 文件/文件夹
+git add -n --ignore-missing 文件/文件夹
 该选项只能与--dry-run一起使用。检查指定的文件/文件夹是否被忽略
 
 git add --renormalize 文件/文件夹

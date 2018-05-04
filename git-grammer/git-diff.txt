@@ -4,7 +4,7 @@ git diff -暂存区和工作区之间的文件差异比较
 git diff --cached HEAD/[commit] 
 比较暂存区与最新版本库的文件差异
 
-git diff HEDA/[commit]
+git diff HEAD/[commit]
 比较工作区与最新版本库/指定版本的文件差异
 
 git diff [commit] [commit]
